@@ -38,11 +38,25 @@
             </div>
             <br />
             <br />
-            <a class="" href="mask-type.html">
-              <button class="btn btn-default bouton-image monBouton">
-                Add to Cart
-              </button>
-            </a>
+            <div class="button-chart">
+                 <div class="row stock">
+                     <img src="/assets/img/tiny.png" alt="">
+                     <p>
+                         Delivery : 
+                         <span>Wednesday, Dec. 09th</span>
+                         <span class="timer"> <countdown [config]="{ leftTime: 540, format: 'm:s' }"></countdown></span>min
+                    </p>
+                   
+                 </div>
+                 <div class="row">
+                     <!-- <a class="" href="mask-type.html"> -->
+                        <button class="btn btn-default bouton-image monBouton">
+                            Add to Cart
+                          </button>
+                        <!-- </a> -->
+                 </div>   
+            </div>
+            
           </div>
         </div>
       </div>

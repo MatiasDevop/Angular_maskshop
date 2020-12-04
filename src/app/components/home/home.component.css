@@ -58,7 +58,9 @@
     background-size: contain;
     background-position: center;
 }
-
+.stock{
+	display: none;
+}
 .top_img {
 	background-image: url(https://i.ibb.co/ftqSZj6/ladytop.jpg);
 	height: 700px;
@@ -772,12 +774,13 @@
 		width: 35%;
 	}
 	.sec_part .btn-default {
-		width: 100%;
+		/* width: 100%;
 		position: fixed;
 		bottom: 0px;
 		z-index: 999;
 		left: 0;
-		right: 0;
+		right: 0; */
+		width: -webkit-fill-available
 	}
 	.top_icon_box {
 		padding: 25px 5px 10px 1px;
@@ -806,6 +809,35 @@
 	.top_blue_text h4 {
 		font-size: 20px;
 	}
+	.button-chart{
+        display: block;
+        position: fixed;
+        padding: 10px 20px;
+		width: 100%;
+		bottom: 0px;
+		z-index: 999;
+		left: 0;
+		right: 0;
+		background-color: #f8f9fa;
+	} 
+	.stock{
+		display: flex;
+	} 
+	.stock img{
+		width: 3em;
+    	height: 1.5em;
+	}
+	.stock p{
+		font-size: 0.68em;
+		line-height: 20px;
+		font-style: unset;
+		font-weight: 700;
+		font-family: cursive;
+	}    
+	.stock .timer{
+		background: red;
+    color: white;
+	}    
 	/* introducing */
 .intro_img {
     height: 250px;

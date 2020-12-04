@@ -116,6 +116,24 @@
 	font-size: 56px;
 	color: #000000;
 }
+
+.sale-section {
+    background: #014484;
+    padding: 5px;
+}
+.sale-section img{
+    width: 45px;
+}
+.sale-section h6 {
+    font-size: 1.35em;
+    color: #fff;
+    text-align: center;
+    font-family: cursive;
+}
+h6 {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
 /**mobil**/
 @media only screen and (max-width: 480px){
     .logo {
@@ -130,6 +148,15 @@
         .save_10 {
             width: 238px;
             }
+            .sale-section h6 {
+                font-size: .691em;
+                color: #fff;
+                text-align: center;
+                font-weight: 800;
+            } 
+            .sale-section {
+                padding: 5px;
+            }  
 }
 
 @media only screen 

@@ -71,6 +71,7 @@
 /* Icon box */
 .top_icon_container {
 	margin-top: 35px; /*-96px;*/
+	text-align: center;
 }
 	.top_icon_box {
 		background: #FFFFFF;

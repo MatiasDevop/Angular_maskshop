@@ -128,7 +128,8 @@
     font-size: 1.35em;
     color: #fff;
     text-align: center;
-    font-family: cursive;
+    /* font-family: cursive; */
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 h6 {
     margin: 0;
@@ -153,6 +154,7 @@ h6 {
                 color: #fff;
                 text-align: center;
                 font-weight: 800;
+                font-family: Comic Sans MS, Comic Sans, cursive;
             } 
             .sale-section {
                 padding: 5px;

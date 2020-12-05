@@ -823,6 +823,7 @@
 	} 
 	.stock{
 		display: flex;
+		margin-top: -0.5em;
 	} 
 	.stock img{
 		width: 3em;
@@ -830,10 +831,11 @@
 	}
 	.stock p{
 		font-size: 0.68em;
-		line-height: 20px;
+		line-height: 11px;
 		font-style: unset;
-		font-weight: 700;
-		font-family: cursive;
+		padding-top: 0.9em;
+		font-weight: 750;
+        font-family: 'Nunito', sans-serif;
 	}    
 	.stock .timer{
 		background: red;
